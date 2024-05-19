@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="689.0" prefWidth="865.0" style="-fx-background-color: #dcdcdc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signupcontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="295.0" layoutY="2.0" prefHeight="36.0" prefWidth="191.0" style="-fx-background-color: #fde;" text="welcome dear patient">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="60.0" prefHeight="30.0" prefWidth="80.0" text="first name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="frsttxt" layoutX="123.0" layoutY="63.0" prefHeight="25.0" prefWidth="173.0" />
+      <Label alignment="CENTER" layoutX="363.0" layoutY="63.0" prefHeight="30.0" prefWidth="80.0" text="last name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lsttxt" layoutX="443.0" layoutY="63.0" />
+      <Label alignment="CENTER" layoutX="41.0" layoutY="104.0" prefHeight="30.0" prefWidth="66.0" text="ID code">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idtxt" layoutX="123.0" layoutY="107.0" prefHeight="25.0" prefWidth="173.0" />
+      <Label layoutX="46.0" layoutY="135.0" prefHeight="16.0" prefWidth="263.0" text="remember your id code save for your username">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="108.0" prefHeight="25.0" prefWidth="50.0" text="Age">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="agetxt" layoutX="426.0" layoutY="108.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label alignment="CENTER" layoutX="518.0" layoutY="110.0" prefHeight="25.0" prefWidth="57.0" text="Gender">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <SplitMenuButton layoutX="575.0" layoutY="110.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="choose">
+        <items>
+          <MenuItem mnemonicParsing="false" text="male" />
+          <MenuItem mnemonicParsing="false" text="female" />
+            <MenuItem mnemonicParsing="false" text="prefer not to say" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="44.0" layoutY="172.0" prefHeight="30.0" prefWidth="162.0" text="Description of the diseas">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="description" layoutX="41.0" layoutY="202.0" prefHeight="133.0" prefWidth="803.0" />
+      <Label layoutX="54.0" layoutY="344.0" prefHeight="30.0" prefWidth="191.0" text="records of specific diseases">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="anotherdiseas" layoutX="44.0" layoutY="374.0" prefHeight="133.0" prefWidth="803.0" />
+      <Label alignment="CENTER" layoutX="52.0" layoutY="521.0" prefHeight="30.0" prefWidth="120.0" text="your password ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="528.0" prefHeight="17.0" prefWidth="137.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="64.0" layoutY="551.0" prefHeight="17.0" prefWidth="697.0" text="please take note from your password becouse second time you need it then clickn on accounting botton" />
+      <Button fx:id="accountingbtn" layoutX="316.0" layoutY="609.0" mnemonicParsing="false" onAction="#cliclaccount" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #149bff;" text="accounting">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

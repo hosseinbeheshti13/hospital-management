@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="425.0" prefWidth="465.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="576.0" prefWidth="696.0" style="-fx-background-color: #00008b;">
+         <children>
+            <Button fx:id="btn_sign" layoutX="424.0" layoutY="14.0" mnemonicParsing="false" onAction="#sign_click" prefHeight="49.0" prefWidth="131.0" style="-fx-background-color: #149bff;" text="accounting">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_login" layoutX="424.0" layoutY="92.0" mnemonicParsing="false" onAction="#log_click" prefHeight="49.0" prefWidth="131.0" style="-fx-background-color: #149bff;" text="login" textFill="#171717">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="49.0" prefWidth="285.0" style="-fx-background-color: #149bff;" text="if its your first time choose accounting" textFill="#d30c0c">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="92.0" prefHeight="49.0" prefWidth="285.0" style="-fx-background-color: #149bff;" text="if you have an account choose login" textFill="#e10c0c">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="387.0" fitWidth="700.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@welcome-ready-inscription-template-neon-signboard-glowing-text-wall-background_110464-234.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

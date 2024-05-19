@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="607.0" style="-fx-background-color: #8d8989;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Doctorenter">
+   <children>
+      <Label fx:id="firstname" layoutX="27.0" layoutY="27.0" prefHeight="17.0" prefWidth="112.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="lastname" layoutX="188.0" layoutY="27.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="age" layoutX="357.0" layoutY="28.0" prefHeight="17.0" prefWidth="64.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="password" layoutX="452.0" layoutY="26.0" prefHeight="17.0" prefWidth="136.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="describe" layoutX="49.0" layoutY="55.0" prefHeight="17.0" prefWidth="498.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="another" layoutX="47.0" layoutY="110.0" prefHeight="17.0" prefWidth="498.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="nurse" layoutX="49.0" layoutY="83.0" prefHeight="17.0" prefWidth="136.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="firstname1" layoutX="27.0" layoutY="147.0" prefHeight="17.0" prefWidth="112.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="lastname1" layoutX="188.0" layoutY="147.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="age1" layoutX="345.0" layoutY="147.0" prefHeight="17.0" prefWidth="64.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="password1" layoutX="445.0" layoutY="147.0" prefHeight="17.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="describe1" layoutX="39.0" layoutY="182.0" prefHeight="17.0" prefWidth="498.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="nurse1" layoutX="43.0" layoutY="215.0" prefHeight="17.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="another1" layoutX="42.0" layoutY="239.0" prefHeight="17.0" prefWidth="498.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="firstname2" layoutX="47.0" layoutY="278.0" prefHeight="17.0" prefWidth="112.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="lastname2" layoutX="188.0" layoutY="278.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="age2" layoutX="357.0" layoutY="278.0" prefHeight="17.0" prefWidth="64.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="password2" layoutX="452.0" layoutY="273.0" prefHeight="24.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="nurse11" layoutX="58.0" layoutY="333.0" prefHeight="17.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="describe2" layoutX="42.0" layoutY="308.0" prefHeight="17.0" prefWidth="539.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="another2" layoutX="40.0" layoutY="360.0" prefHeight="17.0" prefWidth="539.0" style="-fx-background-color: #ffffff;" />
+      <Button fx:id="visit" layoutX="250.0" layoutY="423.0" mnemonicParsing="false" onAction="#visit" prefHeight="25.0" prefWidth="86.0" text="visit" />
+   </children>
+</AnchorPane>

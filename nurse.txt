@@ -1,0 +1,5 @@
+25
+password:8XPLKxXL
+condition:good 
+drog:nope
+nurse check date:2021/04/11 19:15:53

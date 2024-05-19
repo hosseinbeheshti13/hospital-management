@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Visitnurse">
+   <children>
+      <Button fx:id="controll" layoutX="239.0" layoutY="341.0" mnemonicParsing="false" onAction="#controll" prefHeight="25.0" prefWidth="86.0" text="controll" />
+      <Label layoutX="59.0" layoutY="218.0" prefHeight="25.0" prefWidth="86.0" text="drug" />
+      <Label layoutX="44.0" layoutY="294.0" prefHeight="17.0" prefWidth="115.0" text="condition of patient" />
+      <TextField fx:id="drug" layoutX="181.0" layoutY="212.0" prefHeight="25.0" prefWidth="360.0" style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="condition" layoutX="189.0" layoutY="261.0" prefHeight="67.0" prefWidth="360.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="25.0" layoutY="163.0" prefHeight="25.0" prefWidth="240.0" text="password of patient which you want to visit" />
+      <TextField fx:id="password" layoutX="343.0" layoutY="163.0" style="-fx-background-color: #ffffff;" />
+      <ImageView fitHeight="158.0" fitWidth="224.0" layoutX="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@iStock-1220248867.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

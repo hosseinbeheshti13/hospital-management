@@ -1,0 +1,66 @@
+doctor idcode:r12r
+doctor name:ramin faraji
+doctor password:1234
+surgeri:null
+tajviz:null
+date:null
+doctor idcode:n12n
+doctor name:nima bigli
+doctor password:1234
+surgeri:null
+tajviz:null
+date:null
+doctor idcode:z12z
+doctor name:negin ebrahimi
+doctor password:1234
+surgeri:null
+tajviz:null
+date:null
+doctor idcode:u12u
+doctor name:erfan bakhtiari
+doctor password:1234
+surgeri:null
+tajviz:null
+date:null
+nurse idcode:e12e
+nurse name:nahid ebrahimi
+nurse password:1234
+drug:null
+sharayet:null
+date of check:null
+nurse idcode:a12a
+nurse name:erfan molaii
+nurse password:1234
+drug:null
+sharayet:null
+date of check:null
+nurse idcode:q12q
+nurse name:erfan molaii
+nurse password:1234
+drug:null
+sharayet:null
+date of check:null
+patientb infomation
+idcode:4271521434
+doctor name:erfan bakhtiari
+nurse name:nahid ebrahimi
+firstname:hossein
+lastname:beheshti
+age:19
+describe:pain
+anotherdiseas:nope
+password:8XPLKxXL
+registerd
+
+patientb infomation
+idcode:123
+doctor name:erfan bakhtiari
+nurse name:nahid ebrahimi
+firstname:golsa
+lastname:alavi
+age:19
+describe:nn
+anotherdiseas:qq
+password:pGWKl4i0
+registerd
+

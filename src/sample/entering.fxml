@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="698.0" prefWidth="625.0" style="-fx-background-color: #8d8989;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.enteringcontroller">
+   <children>
+      <Label fx:id="idcheck" layoutX="193.0" layoutY="23.0" prefHeight="25.0" prefWidth="215.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="firstnamme" layoutX="42.0" layoutY="63.0" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="lastnamme" layoutX="340.0" layoutY="63.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="agge" layoutX="340.0" layoutY="113.0" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="describe" layoutX="44.0" layoutY="216.0" prefHeight="86.0" prefWidth="536.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="another" layoutX="48.0" layoutY="331.0" prefHeight="63.0" prefWidth="536.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="pasword" layoutX="42.0" layoutY="113.0" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="doctor" layoutX="44.0" layoutY="160.0" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="nurse" layoutX="337.0" layoutY="160.0" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="surgery" layoutX="56.0" layoutY="412.0" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="date" layoutX="334.0" layoutY="412.0" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="diagnosis_ill" layoutX="56.0" layoutY="458.0" prefHeight="32.0" prefWidth="524.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="nurse_date" layoutX="48.0" layoutY="505.0" prefHeight="25.0" prefWidth="215.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="drog" layoutX="334.0" layoutY="502.0" prefHeight="32.0" prefWidth="215.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="condition" layoutX="44.0" layoutY="550.0" prefHeight="32.0" prefWidth="524.0" style="-fx-background-color: #ffffff;" />
+      <Button fx:id="finish" layoutX="263.0" layoutY="611.0" mnemonicParsing="false" onAction="#finish" prefHeight="25.0" prefWidth="82.0" text="cleareance" />
+   </children>
+</AnchorPane>

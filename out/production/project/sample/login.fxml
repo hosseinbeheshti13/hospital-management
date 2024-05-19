@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="601.0" prefWidth="789.0" style="-fx-background-color: #00002a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.logincontroller">
+   <children>
+      <Button fx:id="btn_login" layoutX="358.0" layoutY="488.0" mnemonicParsing="false" onAction="#loginn" prefHeight="47.0" prefWidth="137.0" style="-fx-background-color: #149bff;" text="login">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="94.0" layoutY="292.0" prefHeight="40.0" prefWidth="118.0" text="user name" textFill="#d00d0d">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="94.0" layoutY="375.0" prefHeight="40.0" prefWidth="118.0" text="password" textFill="#bf0b0b">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usser_name" layoutX="285.0" layoutY="292.0" prefHeight="40.0" prefWidth="301.0" style="-fx-background-color: #ffffff;" />
+      <PasswordField fx:id="password" layoutX="285.0" layoutY="375.0" prefHeight="40.0" prefWidth="301.0" style="-fx-background-color: #ffffff;" />
+      <ImageView fitHeight="308.0" fitWidth="791.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Login-Mágico.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="wrong" layoutX="103.0" layoutY="446.0" prefHeight="17.0" prefWidth="515.0" textFill="#e10202">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
